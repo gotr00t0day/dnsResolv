@@ -107,7 +107,6 @@ void worker(std::queue<std::string>& jobs, std::mutex& jobMutex) {
     }
 }
 
-// Resolve function
 std::vector<std::string> Resolve(const std::string& file) {
     std::vector<std::string> urls;
     std::ifstream checkFile(file);
